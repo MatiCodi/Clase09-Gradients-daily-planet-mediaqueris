@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="El sitio del diario Daily Planet, donde superman no trabaja">
+    <link rel="stylesheet" href="./style.css">
+    <title>Daily planet</title>
+</head>
+<body>
+    <div class="suscribers"> este es un diario independiente, porfavor, que el ultimo ataque en metropolis nos dejo sin plata
+
+
+    </div>
+    <header>
+        <img src="./assets/logo.png" alt="logo">
+        <h1>The Daily planet</h1>
+        <nav>
+            <ul>
+            <li class="navlist"><a href="./info.html">Ultimas Noticias</a></li>
+            <li class="navlist"><a href="./info.html">Superman</a></li>
+            <li class="navlist"><a href="./info.html">Internacionales</a></li>
+            <li class="navlist"><a href="./info.html">Ecologia</a></li>
+            <li class="navlist"><a href="./info.html">Pronostico del tienmpo</a></li>
+            </ul>
+            
+
+
+
+
+        </nav>
+    </header>
+
+   <div class="principal">
+ 
+    <main>
+        <article>
+            
+            <h2>Superman: de nuevo salvando la ciudad</h2>
+            <p class="reporterName">Por lois lane</p>
+            <figure>
+                <img class="photo" src="./assets/super.jpg" alt="superman">
+                <figcaption>Superman posa frente a nuestra oficina</figcaption>
+            </figure>
+            <div class="newsContent">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, illo!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, illo!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, illo!</p>
+
+
+            </div>
+        </article>
+
+        <article>
+            
+            <h2>Especial: todos los enemigos de superman</h2>
+            <p class="reporterName">Por jimi olsen</p>
+            <figure>
+                <img class="photo" src="./assets/enemigos.jpg" alt="enemigos">
+                <figcaption>Superman tiene pocos amigos</figcaption>
+            </figure>
+            <div class="newsContent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nobis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, natus!</p>
+
+
+            </div>
+        </article>
+
+
+    </main>
+
+
+    <aside>
+        <article>
+            <h2>Seccion publicitaria</h2>
+            <h3>Dia del niño! Especial de regalos para chicos.</h3>
+            <div class="ads">
+                <figure>
+                    <img src="./assets/Bat-signal.png" alt="Bat-signal">
+                    <figcaption>Para el murcielaguito de la casa!</figcaption> 
+                </figure>
+                <figure>
+                    <img src="./assets/lasso.jpeg" alt="amazon">
+                    <figcaption>Saca la amazona que hay en vos!</figcaption> 
+                </figure>
+            </div>
+            <div class="ads">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis odit vitae quaerat, dicta architecto!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis odit vitae quaerat, dicta architecto!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis odit vitae quaerat, dicta architecto!</p>
+               <img src="./assets/heroes.jpg" alt="">
+             </div>
+            </article>
+         </aside>
+
+
+     </div>
+     <div class="suscribe">
+         <h2>Suscribite para recibir todas las noticias de metropolis</h2>
+         <form action="/"  method="GET">
+            <h3>Datos de contacto :</h3>
+            <label class="userInfo">Tu nombre:
+                <input type="text" name="suscriberName" placeholder="Clark Kent" required>
+             </label>
+             <label class="userInfo">Tu apellido:
+                <input type="text" name="suscriberLastName" placeholder="Kent" required>
+             </label>
+             <label class="userInfo">Tu email:
+                <input type="email" name="suscriberEmail" placeholder="notsuperman@dailyplanet.com" required>
+             </label>
+             <h3>Ciudad de Origen:</h3>
+             <select name="city">
+                 <option class ="cityText"value="metropolis">metropolis</option>
+                 <option class ="cityText"value="smallville">smallville</option>
+                 <option class ="cityText"value="gotham">gotham</option>
+                 <option class ="cityText"value="central">central city</option>
+                 <option class ="cityText"value="fawcett">fawcett city</option>
+                 <option class ="cityText"value="other">otra</option>
+             </select>
+             <h3>Tipo de suscripcion deseada:</h3>
+             <label class="userType">
+                 <input type="radio" name="suscriptionType" id="valor1" value="1">Basic
+             </label>
+             <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor2" value="2">Advanced
+            </label>
+            <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor3" value="3" checked>Premium
+            </label>
+
+            <p>Que suscripcion es para mi?
+                <a href="./info.html">
+                    <strong>Hace click para mas informacion</strong>
+                </a>
+            </p>
+            <button>Suscribirse!!</button>
+        </form>
+     </div>
+
+
+
+     <footer>
+         <p> Daily planet no es propiedad registrada de superman &copy;metropolis 1932.</p>
+         <p>Hecho por pam para 
+             <a href="https://plataforma.nucba.io/c/1617-codingbootcamp/lunes-y-miercoles-1617-coding-bootcamp-cXa0Y " target="_blank">Nucba</a>
+         </p>
+             
+     </footer>
+
+
+
+
+
+</body>
+</html>
